@@ -1,7 +1,7 @@
 # 360 / Qihoo / Botslab 360 Vacuum Robot Home Assistant Integration
 
 This is a custom component for Home Assistant to integrate with 360 vacuum robots.
-You will need this proxy server running for this integration to work: ...
+You will need this proxy server running for this integration to work: https://github.com/cavefire/cn360-proxy
 
 ## Installation
 
@@ -28,7 +28,7 @@ You will need this proxy server running for this integration to work: ...
 As far as I could figure out, there is no native way to control the vacuum robot fully locally. Since the servers of 360 (Qihoo 360 / Botslab 360 and so many more names...) 
 are mostly located in China, controlling the robots sends the traffic halfway around the world for me.
 
-Because of this reason, I created a proxy (link here...), which acts as a Man in the Middle, to capture the events from the robot and send commands to it. **The proxy is needed for this
+Because of this reason, I created a proxy (https://github.com/cavefire/cn360-proxy), which acts as a Man in the Middle, to capture the events from the robot and send commands to it. **The proxy is needed for this
 integration to work!**
 
 ## Features
