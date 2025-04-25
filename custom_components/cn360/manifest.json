@@ -1,0 +1,16 @@
+{
+  "domain": "cn360",
+  "name": "360 Robot",
+  "codeowners": [
+    "@cavefire"
+  ],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://www.home-assistant.io/integrations/cn360",
+  "homekit": {},
+  "iot_class": "cloud_push",
+  "quality_scale": "bronze",
+  "requirements": [],
+  "ssdp": [],
+  "zeroconf": []
+}
